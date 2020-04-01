@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_cek_nik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="SELAMAT DATANG DI CHAT BOT"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/textMessageBot"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt_kirim"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btn_kirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KIRIM"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
